@@ -1,0 +1,120 @@
+// header
+
+header {
+	background-color: black;
+	border-bottom: none
+}
+
+.search-box {
+	background-color: #424242;
+    border: 1px solid #bdbdbd;
+    width: 60%;
+}
+.search-input {
+    height: 40px;
+}
+.cart-count {
+	font-size: 17px;
+	background-color: black
+}
+header a {
+	color: #fafafa;
+	font-size: 1em;
+	font-weight: 400;
+	letter-spacing: 0.6px;
+}
+li.is-active a {
+    color: #212121;
+}
+.primary-nav {
+	margin-top: 50px;
+	border-top: 1px solid #bdbdbd;
+	font-family: "Karla", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.primary-nav a.is-active {
+    color: #fafafa; 
+  
+}
+.primary-nav li.is-active a {
+    color: #212121;
+}
+
+
+
+
+
+
+// product details
+.image-gallery-slide-wrapper {
+	border: 1px solid rgb(221, 220, 220)
+}
+
+.product-quantity {
+	width: 280px;
+}
+
+.product-quantity input {
+	width: 200px;
+}
+
+.select.is-fullwidth select {
+	width: 280px;
+}
+
+button.button.is-success.is-fullwidth {
+	background-color: #e84040;
+}
+
+.column.is-5 {
+	padding-top: 70px;
+}
+section.section.section-product {
+    background-color: #f5f5f5;
+}
+.select.is-fullwidth{
+    width: 280px;
+}
+
+// front page
+.section {
+    background-color: #f5f5f5;
+}
+
+// button-color
+.button.is-primary {
+	background-color: #e84040;
+}
+.button.is-primary:active {
+	background-color: #e84040;
+}
+.button.is-primary:hover {
+	background-color: #e84040;
+}
+.button.is-primary[disabled] {
+	background-color: #e84040;}
+	
+	@media only screen and (max-width: 770px) {
+.search-box {
+	display: none
+}
+.back-dark {
+	margin-top: -115px;
+}
+	}
+
+	.mobile-nav li a {
+		border-bottom: 1px solid white;
+		color: white;
+	}
+	.mobile-nav-open {
+		background-color: #212121;
+	}
+
+	@media only screen and (max-width: 500px) {
+.my-title {
+    font-size: 25px;
+}
+.my-subtitle {
+	font-size: 14px;
+} 
+}

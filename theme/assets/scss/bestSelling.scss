@@ -1,0 +1,49 @@
+.product-name {
+    color: #333;
+    font-size: .9rem;
+    margin-top: 50px;
+  }
+  
+  .product-price {
+    color: #636363;
+  }
+  
+  .up-down {
+    border-top: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid rgb(235, 235, 235);
+  }
+  
+  .save_amount_two {
+    border: 1px solid #e84040;
+    color: #e84040;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+  }
+  
+  .price {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  
+  .compare-price {
+    color: #8b8b8b;
+  }
+  
+  .image {
+    overflow: hidden;
+  }
+  
+  .zoom-anchor:hover {
+    img {
+      transform: scale(1.1);
+      transition: transform .5s;
+    }
+    .product-name {
+      color: #e84040;
+    }
+  }
